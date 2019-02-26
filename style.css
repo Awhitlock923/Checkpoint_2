@@ -2,18 +2,38 @@ header{
   display: grid;
   grid-template-columns: 40% 40% 20%;
   width: 100%;
-  padding-top: 300px;
+  padding-top: 15px;
+  padding-left: 100px;
 }
 
 nav > a {
     font-size: 50px;
-    font-style: italic;
-    background-color: gray
+    font-family: 'Roboto', sans-serif;
+    background-color: gray;
+    transition: 2s;
+}
+
+nav{
+  transition: 2s;
 }
 
 body{
-    background-image: url(animalplanet.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    padding-top: 500px;
+  background-image: url(animalplanet.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+main{
+display: grid;
+  
+  padding-top: 1000px;
+}
+
+nav:hover{
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  transform: scale(1.25);
+  transition: 2s;
 }

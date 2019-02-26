@@ -3,11 +3,12 @@ header{
     grid-template-columns: 40% 40% 20%;
     width: 100%;
     padding-top: 300px;
+    padding-left: 75px;
 }
 
 nav > a {
     font-size: 50px;
-    font-style: italic;
+    font-family: 'Roboto', sans-serif;
     background-color: rgb(80, 146, 121)
 }
 
@@ -20,4 +21,13 @@ body{
 .article{
     padding-top: 50px;
     padding-left: 400px
+}
+
+nav:hover{
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  transform: scale(1.25);
+  transition: 2s;
 }
