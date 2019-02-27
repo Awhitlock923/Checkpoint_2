@@ -9,7 +9,8 @@ article {
 }
 
 body{
-    background-image: url(animal-planet.jpg)
+    background-image: url(animal-planet.jpg);
+    background-repeat: no-repeat;
 }
 
 article:hover{

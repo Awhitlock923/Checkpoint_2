@@ -57,6 +57,12 @@ nav:hover{
     font-size: 25px;
   }
   
+  body{
+    background-repeat: repeat-y;
+    background-position: stretch;
+    width: 411px;
+  }
+
   header{
   display: grid;
   grid-template-columns: 40% 40% 20%;
