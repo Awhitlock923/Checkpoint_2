@@ -22,3 +22,9 @@ article:hover{
   transition: 2s;
   background: grey;
 }
+
+@media only screen and (max-width : 414px){
+  article{
+    width: 60%;
+  }
+}

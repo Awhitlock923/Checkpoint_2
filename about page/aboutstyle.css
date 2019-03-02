@@ -33,6 +33,43 @@ nav:hover{
   transition: 2s;
 }
 
+@media only screen and (max-width : 1024px){
+  header{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  width: 100%;
+  padding-top: 305px;
+  padding-left: 100px;
+  }
+
+  iframe{
+    padding-left: 200px;
+  }
+}
+
+@media only screen and (max-width : 768px){
+  nav > a {
+    font-size: 40px
+  }
+
+  header{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  width: 100%;
+  padding-top: 305px;
+  padding-left: 100px;
+  }
+
+  iframe{
+    padding-left: 100px;
+  }
+
+  body{
+    background-position: stretch;
+    width: 700px;
+  }
+}
+
 @media only screen and (max-width : 414px){
   nav > a {
     font-size: 25px;
@@ -103,9 +140,13 @@ iframe{
   
   header{
   display: grid;
-  grid-template-columns: 30% 30% 30%;
+  grid-template-columns: 25% 25% 25%;
   width: 100%;
   padding-top: 15px;
   padding-left: 0px;
+  }
+
+  iframe{
+    width: 275px;
   }
 }

@@ -38,9 +38,33 @@ nav:hover{
   transition: 2s;
 }
 
+@media only screen and (max-width : 1024px){
+  body{
+  background-repeat: no-repeat;
+  background-position-x: -100px;
+  background-position-y: -0px;
+  background-size: 1200px;
+  }
+
+  header{
+  display: grid;
+  grid-template-columns: 40% 40% 20%;
+  width: 100%;
+  padding-top: 15px;
+  padding-left: 0px;
+  }
+}
+
 @media only screen and (max-width : 768px){
   nav > a {
     font-size: 50px;
+  }
+
+    body{
+  background-repeat: no-repeat;
+  background-position-x: -200px;
+  background-position-y: -0px;
+  background-size: 1200px;
   }
   
   header{
@@ -58,9 +82,10 @@ nav:hover{
   }
   
   body{
-    background-repeat: repeat-y;
-    background-position: stretch;
-    width: 411px;
+  background-repeat: no-repeat;
+  background-position-x: -100px;
+  background-position-y: -0px;
+  background-size: 600px;
   }
 
   header{
@@ -103,6 +128,13 @@ nav:hover{
 @media only screen and (max-width : 320px){
   nav > a {
     font-size: 20px;
+  }
+
+    body{
+  background-repeat: no-repeat;
+  background-position-x: -75px;
+  background-position-y: -0px;
+  background-size: 500px;
   }
   
   header{
